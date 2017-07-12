@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Gifse</string>
+    <string name="title_activity_main">Gifse - Search</string>
+    <string name="search_history">Search history</string>
+    <string name="trending">Trending</string>
+    <string name="downloaded_gifs">Downloaded Gifs</string>
+    <string name="see_random">Get random</string>
+    <string name="title_activity_history">Search history</string>
+    <string name="search_on_gliphy">Search on Gliphy</string>
+    <string name="no_data_history">No search history</string>
+    <string name="no_data_downloaded">No downloaded gifs</string>
+    <string name="no_data">Nothing found</string>
+    <string name="no_connection">Internet connection not found</string>
+    <string name="insert_a_text">Please insert a text to search.</string>
 </resources>
