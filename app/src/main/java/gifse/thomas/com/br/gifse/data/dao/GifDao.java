@@ -2,7 +2,6 @@ package gifse.thomas.com.br.gifse.data.dao;
 
 import java.util.ArrayList;
 import java.util.Random;
-
 import gifse.thomas.com.br.gifse.data.model.Gif;
 import io.realm.Case;
 import io.realm.Realm;
@@ -31,7 +30,11 @@ public class GifDao {
     public String getRandomGif() {
         Random random = new Random();
         RealmResults<Gif> list = realm.where(Gif.class).findAll();
-        return list.get(random.nextInt(list.size())).toString();
+        if (list.size() > 1) {
+            return list.get(random.nextInt(list.size())).toString();
+        } else {
+            return null;
+        }
     }
 
     // Insert Gif
