@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class Images {
-    @SerializedName("fixed_width_downsampled")
+    @SerializedName("preview_gif")
     private Fixed_Height fixed_height;
 
     public Fixed_Height getFixed_height() {

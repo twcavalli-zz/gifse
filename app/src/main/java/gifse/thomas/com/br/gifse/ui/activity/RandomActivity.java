@@ -45,7 +45,6 @@ public class RandomActivity extends BaseActivity {
 
         if (sRandom != null) {
             Glide.with(this)
-                    .asGif()
                     .load(sRandom)
                     .into(img_random_gif);
         } else {

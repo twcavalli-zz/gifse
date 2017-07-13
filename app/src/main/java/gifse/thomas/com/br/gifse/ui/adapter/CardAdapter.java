@@ -39,7 +39,6 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.myViewHolder> 
         try {
             // Download image
             Glide.with(context)
-                    .asGif()
                     .load(mDataset.get(i).toString())
                     .into(viewHolder.image_media);
         } catch (Exception e) { }
