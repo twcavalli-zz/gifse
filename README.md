@@ -20,5 +20,6 @@ Make sure to install the following:
 
 - Android Studio
 - Min SDK: V. 22 (Android 5.1)
-
-Clone the repo and have fun!
+- Clone this project into yout machine and open it with Android Studio
+- Choose a device to run it (AVD or real device. **if real device, make sure to have enabled the debug option**)
+- Click in run and have fun!
