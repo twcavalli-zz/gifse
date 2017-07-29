@@ -8,7 +8,7 @@ import android.util.Base64;
 
 public class Secrets {
     private static String ENDPOINT = "https://api.giphy.com/v1/gifs/";
-    private String API_KEY = "9c85746c2a44496f9787e6cbaa4a5337";
+    private String API_KEY = "YOUR_API_KEY";
     public String getENDPOINT() { return ENDPOINT; }
     public String getAPIKEY() { return API_KEY; }
 }
